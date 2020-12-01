@@ -1,0 +1,169 @@
+/* /*Ejercicio: Proyecto css
+  Nombre: Gabriel Caballero
+  Fecha: 24 de noviembre de 2020 */
+  
+/*CONTENEDOR*/
+
+  #contenedor {
+  	padding: 10px;
+  	margin: auto;
+  	width: 950px;
+  	border: 1px solid grey;
+  	height: auto;
+
+  }
+
+/*CABECERA*/
+
+#cabecera {
+width:90%; 
+padding: .5em 0em; 
+text-align: center;
+}
+#cabecera h1 {
+	background: url("../img/apple.png") no-repeat;
+	padding: 8%;
+	width: 80%;
+	border: 1px solid grey;
+}
+
+/*menu horizontal*/
+
+#menuhorizontal {
+position: fixed;
+margin:auto;
+font-family: arial;
+border: 1px;
+border-radius: 1px;
+}
+  #menuhorizontal ul, li{
+  	
+ 	list-style: none;
+ 	padding: 0px;
+ 	margin: 0px;
+	
+  }
+
+
+  #menuhorizontal ul li{
+	border: 1px;
+	border-radius: 1px;
+  	float: left; 
+  	margin:5px 80px;
+  	padding: 7px 10px;
+  	width:100px;
+  	text-align: center;
+  	background-color:#0c9ba0;
+ 	color:white; 
+ 	display: block;
+  }
+
+  .submenu > li{
+  	float:left;
+  }
+
+  .submenu li a:hover {
+  	background-color:#434343; 
+  }
+  .submenu li ul {
+  	display:none;
+  	position: absolute;
+  	min-width: 20px;
+  }
+  .submenu li:hover > ul {
+  	display: block;
+  }
+
+  #menuhorizontal ul li a{
+  	text-decoration: none;
+  	
+  }
+   #menuhorizontal ul li a:hover{
+   	background-color:#0fbfc6;
+   }
+ #menuhorizontal ul li a ul li{
+visibility:hidden;
+width: 140px;
+position: absolute;
+ }
+
+/*CONTENIDO*/
+
+ #contenido{
+  	width:76%; 
+  	background-color: white; 
+  	padding: .5em; 
+  	float: left;
+  	border: 1px solid grey;
+  	background-color: #1234;
+  }
+
+ /*MENU VERTICAL*/
+
+  #menuvertical {
+  	border: 1px solid grey;
+  	float: right;
+  	width: 20%;
+  	height: auto;
+  	padding: 2px 0px;
+  	border-radius: 1px;
+  	background-color: #33FFBE;
+ 
+  }
+   #menuvertical ul li{
+   	list-style: none;
+ 	padding: 0px;
+ 	margin: 0px;	
+  }
+  
+  #menuvertical ul li a{
+  	text-decoration: none
+
+  }
+
+  /* PIE*/
+
+  #pie {
+  width:100%; 
+  background-color: green; 
+  color: white; 
+  padding: .5em 0em;
+  }
+
+
+  
+/*CALENDARIO*/
+
+  #calendario {
+ border: 1px solid grey;
+ border-collapse: collapse;
+
+
+  }
+  
+  
+	#calendario td, #calendario th{
+	border: 1px solid grey;
+	border-collapse: collapse;
+	width: 20%;
+ 	padding: 2px;
+ 	margin:auto;
+ 	width: 10%;
+ 	text-align: center;
+}
+
+#calendario .dias tr{
+	background-color: #33FFBE;
+}
+.otro td{
+	background-color: yellow;
+}
+
+
+  .class {
+  	clear: both;
+  }
+	div.clear { clear: both; }
+	
+
+	
